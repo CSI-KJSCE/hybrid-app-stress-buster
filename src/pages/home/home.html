@@ -19,7 +19,7 @@
   </ion-card-content>
 </ion-card>
 <ion-card>
-  <img (tap)="eventHate($event)" (pan)="eventLike($event)" src="assets/img/placeholder.jpg"/>
+  <img (tap)="eventHate($event)" (pan)="eventLike($event)" (press)="eventPress(event)" src="assets/img/placeholder.jpg"/>
   <ion-card-content>
    <p (swipe)="eventSwipe($event)">
        Hate level: {{hate}}<br>
@@ -27,5 +27,5 @@
    </p> 
   </ion-card-content>
 </ion-card><br>
-<button ion-button full>next</button>
+<button ion-button full [navPush]="nextpage">next</button>
 </ion-content>
