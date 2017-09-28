@@ -2,7 +2,7 @@
 <widget id="org.csikjsce.stressbuster" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Stress Buster</name>
     <description>An awesome Ionic/Cordova app.</description>
-    <author email="csi-ksjce@somaiya.edu" href="https://github.com/CSI-KJSCE/hybrid-app-workshop">CSI-KJSCE 2017-18</author>
+    <author email="csi-ksjce@somaiya.edu" href="https://github.com/CSI-KJSCE/hybrid-app-stress-buster">CSI-KJSCE 2017-18</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-navigation href="http://ionic.local/*" />

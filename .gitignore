@@ -24,6 +24,7 @@ temp/
 www/
 platforms/
 $RECYCLE.BIN/
+.editorconfig
 
 .DS_Store
 Thumbs.db
