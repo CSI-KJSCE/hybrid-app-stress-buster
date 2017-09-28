@@ -18,10 +18,10 @@
    </p> 
   </ion-card-content>
 </ion-card>
-<ion-card (tap)="eventHate($event)">
-  <img src="assets/img/placeholder.jpg"/>
+<ion-card>
+  <img (tap)="eventHate($event)" (pan)="eventLike($event)" src="assets/img/placeholder.jpg"/>
   <ion-card-content>
-   <p>
+   <p (swipe)="eventSwipe($event)">
        Hate level: {{hate}}<br>
        Like level: {{like}}
    </p> 

@@ -17,5 +17,9 @@ export class HomePage {
   eventLike(e){
     this.like++;
   }
+  eventSwipe(e){
+    this.hate = 0;
+    this.like = 0;
+  }
 
 }
