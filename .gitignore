@@ -23,6 +23,7 @@ tmp/
 temp/
 www/
 platforms/
+node_modules/
 $RECYCLE.BIN/
 .editorconfig
 

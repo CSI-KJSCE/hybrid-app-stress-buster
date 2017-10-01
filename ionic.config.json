@@ -2,5 +2,7 @@
   "name": "stress-buster",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
